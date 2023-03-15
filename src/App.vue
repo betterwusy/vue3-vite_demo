@@ -1,29 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import PluginDemo from './PluginDemo.vue';
 import MouseMove from './components/MouseMove.vue'
 import MouseTrack from './components/MouseTrack.vue';
-import { inject } from 'vue';
-const i18n = inject('i18n')
-console.log(i18n.greetings.hello);
-</script>
+import ModelDemo from './ModelDemo.vue';
 
+</script>
 <template>
-  <!-- <div>
-    <a href="https://vitejs.dev" target="_blank">
-    <img src="/vite.svg" class="logo" alt="Vite logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-      </a>
-    </div>
-  <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <div>
-    {{ $translate('greetings.hello') }}
-  </div> -->
+  <!-- <PluginDemo></PluginDemo> -->
   <!-- <MouseMove></MouseMove> -->
-  <MouseTrack v-slot="{ x, y }">
+  <!-- <MouseTrack v-slot="{ x, y }">
     <p>Mouse position is at : {{ x }}, {{ y }}</p>
-  </MouseTrack>
+  </MouseTrack> -->
+  <ModelDemo></ModelDemo>
 </template>
 
 <style scoped>
