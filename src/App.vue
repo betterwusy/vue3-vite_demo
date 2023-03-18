@@ -3,7 +3,8 @@ import PluginDemo from './PluginDemo.vue';
 import MouseMove from './components/MouseMove.vue'
 import MouseTrack from './components/MouseTrack.vue';
 import ModelDemo from './ModelDemo.vue';
-
+import ModuleStyle from './ModuleStyle.vue';
+import CustomRef from './CustomRef.vue'
 </script>
 <template>
   <!-- <PluginDemo></PluginDemo> -->
@@ -11,7 +12,9 @@ import ModelDemo from './ModelDemo.vue';
   <!-- <MouseTrack v-slot="{ x, y }">
     <p>Mouse position is at : {{ x }}, {{ y }}</p>
   </MouseTrack> -->
-  <ModelDemo></ModelDemo>
+  <!-- <ModelDemo></ModelDemo> -->
+  <!-- <ModuleStyle></ModuleStyle> -->
+  <CustomRef></CustomRef>
 </template>
 
 <style scoped>
