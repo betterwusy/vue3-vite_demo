@@ -5,6 +5,7 @@ import MouseTrack from './components/MouseTrack.vue';
 import ModelDemo from './ModelDemo.vue';
 import ModuleStyle from './ModuleStyle.vue';
 import CustomRef from './CustomRef.vue'
+import CounterDemo from './components/CounterDemo.vue'
 </script>
 <template>
   <!-- <PluginDemo></PluginDemo> -->
@@ -14,7 +15,10 @@ import CustomRef from './CustomRef.vue'
   </MouseTrack> -->
   <!-- <ModelDemo></ModelDemo> -->
   <!-- <ModuleStyle></ModuleStyle> -->
-  <CustomRef></CustomRef>
+  <!-- <CustomRef></CustomRef> -->
+  <div>
+    <CounterDemo></CounterDemo>
+  </div>
 </template>
 
 <style scoped>
